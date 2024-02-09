@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header, main {
+  padding: 64px 0;
+  margin: 0;
+}
+
+main {
+  background: hsla(0, 0%, 40%, 1);
+  border-top: 8px solid hsla(0, 0%, 60%, 1);
+  height: 100%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.max-width-wrapper {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  max-width: 800px;
+}
+
+.intro-chunk {
+  font-size: 1.25rem;
+  max-width: 416px;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+
+.title {
+  font-size: 2rem;
+  padding-bottom: 48px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.card {
+  background: hsla(0, 0%, 100%);
+  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+  font-size: 1.25rem;
+  padding: 8px 32px;
+}
+
+.indented-heading {
+  font-size: 1.50rem;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 48px;
+  margin-inline-start: -48px;
+}
